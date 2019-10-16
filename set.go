@@ -12,7 +12,7 @@ func Make(a []string) []string {
 	return set
 }
 
-// Intersection ...
+// Intersection return set interselection set a and b
 func Intersection(a []string, b []string) []string {
 	set := make([]string, 0)
 	for i := 0; i < len(a); i++ {
@@ -23,7 +23,7 @@ func Intersection(a []string, b []string) []string {
 	return set
 }
 
-//Difference ...
+//Difference return set difference set a and b
 func Difference(a []string, b []string) []string {
 	set := make([]string, 0)
 	for i := 0; i < len(a); i++ {
